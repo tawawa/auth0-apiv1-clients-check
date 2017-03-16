@@ -1,0 +1,17 @@
+{
+  "name": "auth0-apiv1-clients-check",
+  "version": "1.0.0",
+  "description": "Gets unique list of client ids using Auth0 management api v1 logs search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "arcseldon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "q": "^1.4.1",
+    "ramda": "^0.23.0",
+    "request": "^2.81.0"
+  }
+}
